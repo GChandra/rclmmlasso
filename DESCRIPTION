@@ -1,0 +1,18 @@
+Package: rclmmlasso
+Title: Regression-Calibrated LMM Lasso
+Version: 0.0.0.9000
+Authors@R: 
+    person("Ganesh", "Chandrasekaran", , "gchandra@upenn.edu", role = c("aut", "cre"))
+Description: Performs measurement error correction with Regression Calibration for the Linear Mixed-Effects Model Lasso with constant covariates.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports:
+    MASS (>= 7.3.0),
+    Matrix (>= 1.6.0),
+    matrixcalc (>= 1.0.6),
+    nloptr (>= 2.0.3),
+    lme4 (>= 1.1.35.3),
+    tidyr (>= 1.3.1),
+    dplyr (>= 1.1.4)
